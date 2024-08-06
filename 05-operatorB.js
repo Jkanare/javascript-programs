@@ -33,18 +33,18 @@ console.log(`Given word is: ${sentence}`);
 var len = sentence.length;
 console.log(`Given word length is: ${len}`);
  
-var result = len%2== 0 ? true: false;
+var result = len%2== 0 ? "EVEN": "ODD";
 return result;
 }
 
 var result = wordLength("JavaScript");
-console.log(`Is JavaScript word length is even? : ${result}`);
+console.log(`Given word length type is: ${result}`);
 
 var result = wordLength("developer");
-console.log(`Is developer word length is even? : ${result}`);
+console.log(`Given word length type is : ${result}`);
 
 var result = wordLength("Google");
-console.log(`Is Google word length is even? : ${result}`);
+console.log(`Given word length type is : ${result}`);
 
 
 
