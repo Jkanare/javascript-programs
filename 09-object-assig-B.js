@@ -8,7 +8,7 @@ let sbiBank ={              //Declare an object
     ifsc: "SBIN0000411",
     interestRate: 8.9,
     showDetails : function () {     //function expression
-        console.log(`Data members of the Sbi Bank are: ${this.bankName}, ${this.location}, ${this.accountNo}, ${this.ifsc}`);
+        console.log(`Data members of the Sbi Bank are: ${this.bankName}, ${this.location}, ${this.accountNo}, ${this.ifsc}, ${this.interestRate}`);
         
     } 
 }
@@ -24,7 +24,7 @@ let axisBank ={
     ifsc: "AXIS0000511",
     interestRate: 9.1,
     showDetails : function () {
-        console.log(`Data members of the Axis Bank are: ${this.bankName}, ${this.location}, ${this.accountNo}, ${this.ifsc}`);
+        console.log(`Data members of the Axis Bank are: ${this.bankName}, ${this.location}, ${this.accountNo}, ${this.ifsc}, ${this.interestRate}`);
 
     } 
 }
@@ -40,7 +40,7 @@ let hdfcBank ={
     ifsc: "HDFC0000611",
     interestRate: 7.5,
     showDetails : function () {
-        console.log(`Data members of the HDFC Bank are: ${this.bankName}, ${this.location}, ${this.accountNo}, ${this.ifsc}`);
+        console.log(`Data members of the HDFC Bank are: ${this.bankName}, ${this.location}, ${this.accountNo}, ${this.ifsc}, ${this.interestRate}`);
 
     } 
 }
@@ -55,7 +55,7 @@ let yesBank ={
     ifsc: "YES0000711",
     interestRate: 10.1,
     showDetails : function () {
-        console.log(`Data members of the Yes Bank are: ${this.bankName}, ${this.location}, ${this.accountNo}, ${this.ifsc}`);
+        console.log(`Data members of the Yes Bank are: ${this.bankName}, ${this.location}, ${this.accountNo}, ${this.ifsc}, ${this.interestRate}`);
 
     } 
 }  
